@@ -4,3 +4,36 @@
   padding: 2rem;
   text-align: center;
 }
+.App{
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.product-cart{
+  display: flex;
+  width: 160px;
+  flex-wrap: wrap;
+  border: 1px solid #ccc;
+  margin: 10px;
+  padding: 10px;
+}
+
+.product-img{
+  width: 150px;
+  height: 150px;
+}
+
+.Product-container{
+  display: flex;
+  flex-wrap: wrap;;
+}
+
+.page-number{
+  padding: 5px;
+  margin: 2px;
+  border: 1px solid #ccc;
+}
+
+.active{
+  background-color: rgb(81, 81, 196);
+}
